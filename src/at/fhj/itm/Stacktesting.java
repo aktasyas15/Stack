@@ -24,9 +24,11 @@ public class Stacktesting {
 			String wert = s1.pop();
 			System.out.println("Pop Aufruf bei leerem Stack" + wert );
 			
+			//autruf push methoden
 			s1.push("YASIN ");
 			s1.push("AKTAS ");
 			
+			//Aufruf pop methode
 			String wert2 = s1.pop();
 			
 			System.out.println("Pop Aufruf--> das ergebnis sollte AKTAS sein " + wert2 );

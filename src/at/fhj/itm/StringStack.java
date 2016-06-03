@@ -12,7 +12,9 @@ public class StringStack implements Stack {
 	int index = 0;
 	Vector<String> stack;
 
+	
 	public StringStack() {
+		
 		stack = new Vector<String>();
 	}
 	/**
